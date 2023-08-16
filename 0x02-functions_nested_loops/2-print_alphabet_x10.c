@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabett_x10 - prints alphabet in lowercasee 10x
+ * print_alphabet_x10 - prints alphabet in lowercasee 10x
  * Return: 0
  */
 
@@ -13,6 +13,6 @@ for (i = 0 ; i < 10 ; i++)
 {
 for (j = 'a' ; j <= 'z' ; j++)
 _putchar(j);
-}
 _putchar('\n');
+}
 }
