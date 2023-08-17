@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times table - prints the times table from zero
+ * times_table - prints the times table from zero
  * Return: void
  */
 
@@ -22,7 +22,6 @@ printf("%2d", result);
 if (j != 9)
 printf(", ");
 }
-printf("%2d, ", result);
 }
 printf("\n");
 }
